@@ -19,5 +19,7 @@ public class Main {
 
         System.out.println(x.potencia());
         System.out.println(x.potenciaSuma());
+
+        System.out.println(x.potenciaInterna(3));
     }
 }
