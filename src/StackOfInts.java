@@ -8,7 +8,7 @@ public class StackOfInts {
         stack = new int[size];
     }
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         StackOfInts stackOne = new StackOfInts(15);
         for (int j = 0; j < 15; j++) {
             stackOne.push(2 * j);
@@ -19,7 +19,7 @@ public class StackOfInts {
             iterator.increment();
         }
         System.out.println();
-    }
+    }*/
 
     public void push(int on) {
         if (next < stack.length)
