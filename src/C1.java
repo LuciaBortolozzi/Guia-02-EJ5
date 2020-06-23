@@ -42,7 +42,7 @@ public class C1 {
                 return (int) pow(sumar(), exp);
             }
 
-            public int potenciaInterna(int e){
+            public int potenciaInterna(final int e){
                 class P {
                     int e;
 
